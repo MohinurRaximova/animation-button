@@ -1,0 +1,26 @@
+button{
+    background-color: blue;
+    border: 5px solid blueviolet;
+    padding: 12px 24px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px #214e7e inset 0 0 5px rgb(64, 19, 106);
+    transition-duration: .05s;
+    position: relative;
+    left: 0;
+    transition-timing-function: steps(5);
+}
+body:hover button{
+    left: 290px;
+    background-color: aqua;
+background-color: chartreuse;
+}
+.content:hover button{
+left: 90px;
+background-color: aqua;
+border-color: crimson;
+}
+.content {
+    width: 240px;
+    border: 5px solid #0F0;
+    border-radius: 100px;
+}
